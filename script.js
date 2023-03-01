@@ -11,7 +11,7 @@ $(document).ready(()=> {
         let button = new Button(i)
         let buttonElement = document.createElement('button')
         $(buttonElement).text(i)
-        $('#container').append(buttonElement);
+        $('.col')[i].append(buttonElement);
     }
 
 
